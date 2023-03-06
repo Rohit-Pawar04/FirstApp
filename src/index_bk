@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDoM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
+
+function App(){
+    return(
+        <div>
+            <Header/>
+            <h1>Hi from React</h1>
+            <h2>My Code</h2>
+            <Footer/>
+        </div>
+    
+    )
+}
+ReactDoM.render(<App/>, document.getElementById('root'))
